@@ -1,6 +1,6 @@
 # Provider 
 provider "aws" {
-  region = var.region_select
+  region = "us-east-1"
 }
 
 # Where to store the tfstate
