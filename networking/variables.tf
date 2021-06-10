@@ -1,5 +1,5 @@
 variable "region_select" {
-  # default = "us-east-1"
+  default = "us-east-1"
   type        = string
   description = "Region for Deployment"
 }
