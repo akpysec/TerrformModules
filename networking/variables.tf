@@ -1,9 +1,3 @@
-variable "region_select" {
-  default = "us-east-1"
-  type        = string
-  description = "Region for Deployment"
-}
-
 variable "environment" {
   type        = string
   description = "Name you ENVIRONMENT"
