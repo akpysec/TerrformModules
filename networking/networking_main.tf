@@ -3,15 +3,6 @@ provider "aws" {
   region = "us-east-1"
 }
 
-# Where to store the tfstate
-terraform {
-  backend "s3" {
-    bucket = "my-s3-bucket-for-terraform"
-    key    = "modules/network/terraform.tfstate"
-    region = "us-east-1"
-  }
-}
-
 # Getting A-Z's from a Region specified
 data "aws_availability_zones" "available" {}
 
